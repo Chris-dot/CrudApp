@@ -1,11 +1,11 @@
-var http = require('http');
-var express = require('express');
-var port = process.env.PORT || 8080;
-var app = express();
-var appRoutes = require('./routes/appRoutes');
-var mongoose = require('mongoose');
-var bodyParser = require('body-parser');
-var cors = require('cors');
+let http = require('http');
+let express = require('express');
+let port = process.env.PORT || 8080;
+let app = express();
+let appRoutes = require('./routes/appRoutes');
+let mongoose = require('mongoose');
+let bodyParser = require('body-parser');
+let cors = require('cors');
 
 
 
